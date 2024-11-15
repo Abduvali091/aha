@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.contanier {
+  
+  width: 1277px;
+  height: 332px;
+}
+
+.pharent {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 82px;
+  gap: 43px;
+}
+
+.child {
+  margin-left: 16px;
+  width: 296px;
+  height: 372px;
+  background-color: #F0F0F073;
+  border-radius: 16px;
+  border: 1px solid #F0F0F073;
+}
+
+.child-location {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.location-informatin {
+  margin-left: 16px;
+}
+
+.location-name {
+  display: inline-block;
+  font-size: 10px;
+  color: #8F8F8F;
+
+}
+
+.location-day-money {
+  display: inline-block;
+  font-size: 14px;
+  color: #42A7C3;
+  margin-left: 16px;
+
+}
+
+
+.location-day {
+  font-size: 14px;
+  color: #636363;
+  margin-left: 16px;
+}
